@@ -1,0 +1,17 @@
+body{
+    background-color: aquamarine;
+    background-image: url("./bilder/joel-muniz-RLH_Wmlnj2k-unsplash\ \(1\).jpg");
+}
+h1{
+    color: rgb(74, 19, 74);
+    font-size: 70px;
+    
+}
+h2{
+    color: darkorchid;
+    font-size: 30px;
+}
+p{
+    color: white;
+    font: 18px;
+}
