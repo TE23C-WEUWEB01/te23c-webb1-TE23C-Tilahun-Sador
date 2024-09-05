@@ -1,0 +1,45 @@
+body{
+background-image: url("./bilder/image-24.jpg");
+background-attachment: fixed;
+background-size: cover;
+}
+h1{
+color: blanchedalmond;
+font: 70px serif;
+font-style: italic;
+text-transform: uppercase;
+text-shadow: 2px 2px 0 black;
+margin-left: 100px;
+}
+p{
+color: bisque;
+font-style: italic;
+margin-left: 100px;
+padding: 30px;
+text-shadow: 1px 1px 0 #3a3a3a;
+background-color: darkslateblue;
+border: 3px solid darkcyan;
+width: 550px;
+border-radius: 5px;
+}
+a{
+color: blue;
+
+}
+img{
+width: 100px;
+margin-left: 100px;
+}
+h4{
+    color: blanchedalmond;
+    font-style: italic;
+    text-shadow: 2px 2px 0 black;
+    margin-left: 100px;
+}
+h2{
+    color: bisque;
+    font: 20 px serif;
+    font-style: italic;
+    text-shadow: 2px 2px 0 black;
+    margin-left: 100px;
+}
