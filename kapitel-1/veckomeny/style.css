@@ -1,0 +1,33 @@
+body{
+    background-color: bisque;
+}
+
+table{
+background-color: rgb(120, 63, 23);
+width: 1000px;
+}
+
+caption{
+    font-size: 50px ;
+    padding: 30px;
+    background-image: url("./bilder/c25c50c443dd1bad95978bd3a0a51655.jpg");
+}
+
+tr{
+background-color: blanchedalmond;
+color: black;
+}
+
+th{
+background-color: burlywood;
+color: black;
+}
+
+td{
+
+color: black;
+}
+
+img{
+width: 250px;
+}
