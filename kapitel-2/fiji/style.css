@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+    background-image: url("./bilder/beach.avif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+
+}
+
+h1{
+    font-family: "Montserrat", sans-serif;
+    color: aqua;
+    text-shadow: 5px 5px 0px hotpink;
+    font-size: 100px;
+    margin-left: 0px ;
+    text-transform: uppercase;
+    margin-top: 100px ;
+    margin-left: 100px ;
+}
+
+h2{
+    font-family: "Montserrat", sans-serif;
+    color: aqua;
+    text-shadow: 5px 5px 0px hotpink;
+    font-size: 50px;
+    margin-top: 75px ;
+    margin-left: 100px ;
+}
+
+p{
+    font-size: 30 px;
+    margin-top: 150px ;
+    margin-left: 850px ;
+}
+
+a{
+    font-size: 30px ;
+    color: white;
+    text-decoration: none;
+    background-color: hotpink;
+    text-transform: uppercase;
+    border-radius: 5px ;
+    padding-left: 50px ;
+    padding-right: 50px ;
+    padding-top: 10px ;
+    padding-bottom: 10px;
+    border: 2px solid aqua ;
+}
