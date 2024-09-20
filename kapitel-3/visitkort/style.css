@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Asap+Condensed:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Bebas+Neue&display=swap');
+
+
+/* Enkel css Reset*/
+
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body, h1, h2, h3, h4, h5, h6, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+   background-color: gray;
+}
+
+div{
+    color: white;
+    background-image: url("./bilder/knarklangare.jpg");
+    width : 700px;
+    border-radius: 15px ;
+    margin-left : auto;
+    margin-right: auto;
+    height: 400px;
+    margin-top: 150px;
+    background-size: cover;
+    box-shadow: 8px 8px 4px black;
+    
+    
+}
+
+h1{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-left: 380px;  
+    font-size: 50px ;
+    padding-top: 50px ;
+   
+}
+
+h2{
+    font-family: "Asap Condensed", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    margin-left :380px;
+}
+
+p{
+    font-family: "Asap Condensed", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    margin-left : 380px;
+   
+}
