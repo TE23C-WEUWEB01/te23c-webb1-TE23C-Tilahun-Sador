@@ -1,0 +1,79 @@
+@import url('https://fonts.cdnfonts.com/css/lakers');
+
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body, h1, h2, h3, h4, h5, h6, p, ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+body{
+    background-image: url("./bilder/lakers-bakgrund.jpg");
+    background-position: center;
+    background-size: cover;
+    margin-left: px;
+}
+
+h1{
+    color: purple;
+    margin-left: 30px;
+    font-size: 100px;
+    font-family: 'Lakers', sans-serif;
+}
+
+h2{
+   margin-left: 30px;
+    color: blueviolet;
+    font-size: 40px;
+    font-family: 'Lakers', sans-serif;
+}
+
+p{
+    font-size: 20px;
+    background-color: blueviolet;
+    width: 600px;
+    border-radius: 2px;
+    margin: 30px;
+    padding: 30px;
+    margin-left: 20px
+    
+}
+
+table{
+    margin-left: 30px;
+    border: 1px solid purple;
+    
+}
+
+#block{
+    background-color: blueviolet;
+    border: 3px solid purple;
+}
+
+table,th,td{
+    border: 3px solid blueviolet;
+    border-collapse: collapse;
+}
+
+tr{
+   
+}
+th{
+    background-color:blueviolet ;
+    
+}
+
+td{
+    
+}
+
+img{
+    width: 20px;
+}
