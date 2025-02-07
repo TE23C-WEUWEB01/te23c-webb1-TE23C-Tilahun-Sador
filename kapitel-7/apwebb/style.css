@@ -15,6 +15,10 @@ img {
 }
 
 /* Sidans Layout */
+body{
+    background-image: url(./bilder/jungle-plants.jpg);
+    background-size: cover; 
+}
 
 .kontainer{
     margin: auto;
@@ -22,32 +26,71 @@ img {
     display: grid;
     grid-template-columns: 3fr 1fr;
     grid-template-areas: 
-    "sidhuvud sidbar"
+    "sidhuvud sidhuvud"
     "innehall sidebar"
-    "sidfot sibar ";
+    "sidfot sidfot ";
+    gap: 20px;
 }
 
 header{
     grid-area: sidhuvud;
+    color: #fff; 
+}
+
+header h1{
+    font-size: 50px;
+    margin: 20px;
+}
+
+header h2{
+    margin: 20px;
 }
 
 nav{
     background-color: lime;
     border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    gap: 30px;
+    padding-left: 50px;
+}
+
+nav a{
+    text-decoration: none;
+    color: #fff;
+    font-size: large;
+    text-shadow: 1px 1px 1px black;
+}
+
+figure{
+    margin: auto;
+    width: 220px;
+    border: solid 1px black;
+    padding: 10px;
 }
 
 main{
     background-color: white;
     grid-area: innehall;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+main p {
+    padding: 20px;
 }
 
 aside{
     background-color: white;
     grid-area: sidebar;
+    border-radius: 20px;
+    padding: 20px;
 }
 
 footer{
-    background-color: transparent;
+    background-color: #fff;
     grid-area: sidfot;
+    border-radius: 20px;
+    padding: 20px;
 }
 
