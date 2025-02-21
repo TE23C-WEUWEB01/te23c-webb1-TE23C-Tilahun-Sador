@@ -20,17 +20,56 @@ body{
     background-size: cover; 
 }
 
-.kontainer{
-    margin: auto;
-    width: 1200px;
-    display: grid;
-    grid-template-columns: 3fr 1fr;
-    grid-template-areas: 
-    "sidhuvud sidhuvud"
-    "innehall sidebar"
-    "sidfot sidfot ";
-    gap: 20px;
+
+
+/* Responsiv layout */
+
+/* Små enheter: bredd < 576px */
+@media (min-width: 576px) {
+    .kontainer{
+        margin: auto;
+        width: 100%;
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-areas: 
+        "sidhuvud"
+        "innehall"
+        "sidfot";
+        gap: 20px;
+    }
 }
+
+/* Mellan enheter: 576px < bredd < 768px */
+@media (min-width: 768px) {
+    .kontainer{
+        margin: auto;
+        width: 100%;
+        display: grid;
+        grid-template-columns: auto 200px;
+        grid-template-areas: 
+        "sidhuvud"
+        "innehall"
+        "sidfot";
+        gap: 20px;
+    }
+}
+
+/* Större enheter: bredd > 1280px */
+@media (min-width: 1200px) {
+    .kontainer{
+        margin: auto;
+        width: 1200px;
+        display: grid;
+        grid-template-columns: 3fr 1fr;
+        grid-template-areas: 
+        "sidhuvud sidhuvud"
+        "innehall sidebar"
+        "sidfot sidfot ";
+        gap: 20px;
+    }
+}
+
+
 
 header{
     grid-area: sidhuvud;
